@@ -66,8 +66,7 @@
       "name": "input",
       "type": "registry:ui",
       "title": "Input",
-      "description": "Input",
-      "dependencies": ["radix-ui", "lucide-react"],
+      "description": "Minimal border-input field styled for travel query text entry.",
       "files": [
         {
           "path": "src/components/input.tsx",
