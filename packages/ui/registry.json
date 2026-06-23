@@ -61,6 +61,19 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "description": "Input",
+      "dependencies": ["radix-ui", "lucide-react"],
+      "files": [
+        {
+          "path": "src/components/input.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
