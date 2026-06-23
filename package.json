@@ -31,7 +31,7 @@
     "build": "bun run registry:build && turbo build",
     "check-types": "turbo check-types",
     "dev:web": "turbo -F web dev",
-    "registry:build": "bunx shadcn build registry.json --output public/r -c apps/web",
+    "registry:build": "bunx shadcn build registry.json --output apps/web/public/r",
     "docker:build": "docker compose build",
     "docker:up": "docker compose up -d --build",
     "docker:down": "docker compose down",
