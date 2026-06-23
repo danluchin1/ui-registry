@@ -73,6 +73,20 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "calendar",
+      "type": "registry:ui",
+      "title": "Calendar",
+      "description": "Minimal border-calendar styled for travel query text entry.",
+      "dependencies": ["react-day-picker", "date-fns", "lucide-react"],
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "src/components/calendar.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
