@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ifly-theme",
+  "title": "iFly Theme",
+  "description": "Travel-inspired blue and green theme tokens for iFly-style UI.",
+  "cssVars": {
+    "light": {
+      "radius": "1rem",
+      "primary": "oklch(0.546 0.245 262.881)",
+      "primary-foreground": "oklch(0.985 0 0)",
+      "success": "oklch(0.723 0.191 149.579)",
+      "success-foreground": "oklch(0.985 0 0)",
+      "brand-hero": "oklch(0.488 0.243 264.376)"
+    }
+  },
+  "css": {
+    "@theme inline": {
+      "--color-success": "var(--success)",
+      "--color-success-foreground": "var(--success-foreground)",
+      "--color-brand-hero": "var(--brand-hero)"
+    }
+  },
+  "type": "registry:theme"
+}

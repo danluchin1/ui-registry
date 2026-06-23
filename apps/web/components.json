@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "base-lyra",
+  "style": "radix-vega",
   "rsc": true,
   "tsx": true,
   "tailwind": {
@@ -11,8 +11,9 @@
     "prefix": ""
   },
   "iconLibrary": "lucide",
+  "rtl": false,
   "aliases": {
-    "components": "@/components",
+    "components": "@/components/ui",
     "utils": "@my-better-t-app/ui/lib/utils",
     "ui": "@my-better-t-app/ui/components",
     "lib": "@/lib",

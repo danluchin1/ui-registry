@@ -1,0 +1,6 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "my-better-t-app",
+  "homepage": "https://github.com/luchi/my-better-t-app",
+  "include": ["packages/ui/registry.json"]
+}
